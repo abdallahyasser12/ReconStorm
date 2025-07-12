@@ -37,6 +37,12 @@ chmod +x reconS.sh
 It will prompt you to enter the target domain and automatically run all the recon steps.
 Results will be saved in the results/ folder.
 
+## Usage Notes
+
+- The tool performs several steps automatically, including gathering archived URLs using `gau`.
+- **Note:** On large or historically active targets, `gau` may take several minutes to complete. This is normal as it fetches data from multiple sources (Wayback Machine, Common Crawl, etc.). Be patient for the best results.
+- For faster but less comprehensive scanning, you can limit `gau` to use only the Wayback Machine by adding this flag in the script:
+
 📁 Output Example
 csharp
 Copy
