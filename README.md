@@ -55,3 +55,15 @@ results/
 📝 License
 This project is licensed under the MIT License.
 Feel free to use, modify, and share with proper credit to Abdallah Yasser.
+
+
+---
+
+## 🔬 Beyond Recon: VulnGPT
+
+ReconStorm focuses on reconnaissance. I’m also building **VulnGPT** at NovaSecLabs: an AI-assisted web application security platform designed to move beyond surface discovery into authenticated, stateful, evidence-backed vulnerability testing.
+
+Current focus areas include authorization boundaries (BOLA/IDOR), multi-role testing, business-logic workflows, session state, validation, and reproducible evidence. In the controlled first-generation Gauntlet benchmark, VulnGPT **confirmed 41 of 42 planted vulnerabilities**; that result is specific to the benchmark and is not presented as a universal real-world detection rate.
+
+🌐 https://www.novaseclabs.com  
+🧪 Private beta: https://www.novaseclabs.com/waitlist
