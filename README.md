@@ -63,7 +63,7 @@ Feel free to use, modify, and share with proper credit to Abdallah Yasser.
 
 ReconStorm focuses on reconnaissance. I’m also building **VulnGPT** at NovaSecLabs: an AI-assisted web application security platform designed to move beyond surface discovery into authenticated, stateful, evidence-backed vulnerability testing.
 
-Current focus areas include authorization boundaries (BOLA/IDOR), multi-role testing, business-logic workflows, session state, validation, and reproducible evidence. In the controlled first-generation Gauntlet benchmark, VulnGPT **confirmed 41 of 42 planted vulnerabilities**; that result is specific to the benchmark and is not presented as a universal real-world detection rate.
+Current focus areas include authorization boundaries (BOLA/IDOR), multi-role testing, business-logic workflows, session state, validation, and reproducible evidence. The certified first-generation Gauntlet G1 freeze recorded a **raw 39/51 matrix with fp_sum = 0** and an **adjudicated valid-in-scope score of 41/42 with 0 valid-in-scope misses remaining** after documented benchmark exclusions. These are controlled internal benchmark results, not universal real-world detection rates.
 
 🌐 https://www.novaseclabs.com  
 🧪 Private beta: https://www.novaseclabs.com/waitlist
